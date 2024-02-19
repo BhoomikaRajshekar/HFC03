@@ -2,3 +2,16 @@ Team Name:Access Denied
 Problem statement:Develop an AI based solution to offer insights into current global hacking trends,prioritising potential threats based on their likelihood of targeting specific enterprises. 
 Solution Title:AI Threat Analysis System: Safeguarding businesses through dynamic cybersecurity insights.
 Approach:
+1)Establishing Network: Connect One Hotspot by different devices and by doing this local network is established.
+2)Hosting:Host a dummy website in XAMP Server. The systems in this network can access the hosted website,Proceed whether it's working or not ,so that it can be accessed using a particular IP Address.
+3)Launching wireshark: Now activate wireshark to monitor the traffic of networks.
+4)Kali OS: Activate kali VM and attack the wesbite.
+5)Attacking:Host a server and For instance,attack the hosted website from two users, flood the website with continuous packets.
+6)NMAP ,Hping3:
+7)Post Attack:This flooding of packets will slow dowm the website and gradually shows that "This page cannot be loaded. Retry". Basically this is because, the webpage interaction is incomplete.(A->B) but (B->A) won't work.
+8)Monitoring: Monitor the traffic of networks after post-attack.
+9)Sorting: Sort the data based on tcp.flags.syn==1 which means establish a connection with another device,it sends TCP packet with sync flag set.
+tcp.flasks.ack==0, is to ackonwledge the receipt of data.
+10)Comparison: tcp.flags.syn==1 and tcp.flasks.ack==0 ,to filter TCP packets which meets both the condition.
+11) Extract into .csv file: From .pcap extract into .csv file and proceed data cleaning process.
+12)Data cleaning: Change the necessary format like date and time,and remove null characters.
