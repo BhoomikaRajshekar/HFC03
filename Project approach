@@ -2,8 +2,8 @@ Team Name:Access Denied
 Problem statement:Develop an AI based solution to offer insights into current global hacking trends,prioritising potential threats based on their likelihood of targeting specific enterprises. 
 Solution Title:AI Threat Analysis System: Safeguarding businesses through dynamic cybersecurity insights.
 Approach:
-1)Establishing Network: Connect One Hotspot by different devices and by doing this local network is established.
-2)Hosting:Host a dummy website in XAMP Server. The systems in this network can access the hosted website,Proceed whether it's working or not ,so that it can be accessed using a particular IP Address.
+1)Establishing Network: Connect One Hotspot by different devices and by doing this ,local network is established.
+2)Hosting:Host a dummy website in XAMPP Server. The systems in this network can access the hosted website,Proceed whether it's working or not ,so that it can be accessed using a particular IP Address.
 3)Launching wireshark: Now activate wireshark to monitor the traffic of networks.
 4)Kali OS: Activate kali VM and attack the wesbite.
 5)Attacking:Host a server and For instance,attack the hosted website from two users, flood the website with continuous packets.
